@@ -1,0 +1,19 @@
+{
+  "name": "kk-ui-kit",
+  "version": "1.0.0",
+  "description": "kk-ui-kit",
+  "homepage": "",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "xxx",
+      "url": "https://github.com/xxx",
+      "githubUsername": "xxx"
+    }
+  ],
+  "main": "",
+  "types": "types.d.ts",
+  "repository": {},
+  "scripts": {},
+  "dependencies": {}
+}

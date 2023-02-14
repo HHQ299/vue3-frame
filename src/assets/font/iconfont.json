@@ -1,0 +1,191 @@
+{
+  "id": "2961465",
+  "name": "库课网校PC端系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "库课网校PC端系统icon集合",
+  "glyphs": [
+    {
+      "icon_id": "27730231",
+      "name": "ic_shuju",
+      "font_class": "ic_shuju",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "27730232",
+      "name": "ic_kecheng_check",
+      "font_class": "ic_kecheng_check",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "27730233",
+      "name": "ic_kecheng",
+      "font_class": "ic_kecheng",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "27730234",
+      "name": "ic_shuju_check",
+      "font_class": "ic_shuju_check",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "27730046",
+      "name": "shiting",
+      "font_class": "shiting1",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "27730047",
+      "name": "baoming",
+      "font_class": "baoming1",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "27730048",
+      "name": "yeji",
+      "font_class": "yeji",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "27730049",
+      "name": "tuiguang",
+      "font_class": "tuiguang",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "27730050",
+      "name": "luru",
+      "font_class": "luru",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "27690589",
+      "name": "ic_data",
+      "font_class": "ic_data1",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "27690513",
+      "name": "ic_filtrate",
+      "font_class": "ic_filtrate",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "27690514",
+      "name": "ic_add",
+      "font_class": "ic_add",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "27690515",
+      "name": "ic_download",
+      "font_class": "ic_download",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "27690516",
+      "name": "ic_uploading",
+      "font_class": "ic_uploading",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "27690517",
+      "name": "ic_search",
+      "font_class": "ic_search",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "27690508",
+      "name": "ic_agent_check",
+      "font_class": "ic_agent_check",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "27690509",
+      "name": "ic_data",
+      "font_class": "ic_data",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "27690510",
+      "name": "ic_agent",
+      "font_class": "ic_agent",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "27690511",
+      "name": "ic_course",
+      "font_class": "ic_course",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "27690512",
+      "name": "ic_material",
+      "font_class": "ic_material",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "25959716",
+      "name": "shiting",
+      "font_class": "shiting",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "25959717",
+      "name": "baoming",
+      "font_class": "baoming",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "25959718",
+      "name": "baobiao",
+      "font_class": "baobiao",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "25959719",
+      "name": "guanli",
+      "font_class": "guanli",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "25957214",
+      "name": "btn_fold",
+      "font_class": "btn_fold",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "25957215",
+      "name": "select_arrow",
+      "font_class": "select_arrow",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    }
+  ]
+}

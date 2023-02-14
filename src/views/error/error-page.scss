@@ -1,0 +1,25 @@
+.error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__image {
+    height: 200px;
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &-title {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999;
+      line-height: 14px;
+      padding: 12px 0 24px;
+    }
+  }
+}

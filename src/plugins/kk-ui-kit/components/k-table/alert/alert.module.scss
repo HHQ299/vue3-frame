@@ -1,0 +1,60 @@
+.alert-list {
+  margin-bottom: 16px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  line-height: 48px;
+  background: var(--el-color-primary-light-9);
+  color: #666;
+
+  .alertItem {
+    font-size: 14px;
+    margin-right: 44px;
+    color: #333;
+
+    a {
+      font-size: 16px;
+      font-weight: 600;
+      // color: #126EFE;
+      color: var(--el-color-primary);
+    }
+  }
+}
+
+.alertCards {
+  display: flex;
+  flex-wrap: wrap;
+
+  .alertCard {
+    // width: 214px;
+    width: 16%;
+    height: 72px;
+    border: 1px solid #e5e7eb;
+    padding: 12px;
+    margin-right: 0.8%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    &:nth-child(6n) {
+      margin-right: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .alertCard_value {
+      font-size: 20px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 24px;
+      height: 24px;
+    }
+
+    .alertCard_label {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      line-height: 20px;
+    }
+  }
+}

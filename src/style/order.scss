@@ -1,0 +1,218 @@
+.area {
+  background: #ffffff;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 16px;
+  .reduceInfo {
+    width: 100%;
+    text-align: right;
+    span {
+      &:nth-last-of-type(1) {
+        color: #fe2e12;
+        font-weight: bold;
+        display: inline-block;
+        width: 127px;
+        margin-right: 16px;
+      }
+      &:nth-of-type(1) {
+        color: #333333;
+      }
+    }
+  }
+  .Graybg {
+    background: #f5f7fa;
+    padding: 10px 0;
+  }
+  .bottom-reduceInfo {
+    margin-right: 16px;
+    text-align: right;
+    padding-bottom: 13px;
+    margin-top: -4px;
+    span {
+      &:nth-of-type(2n) {
+        color: #fe2e12;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 24px;
+      }
+      &:nth-of-type(2n-1) {
+        color: #666;
+        display: inline-block;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+.colorGray3 {
+  color: #333;
+}
+.col-style {
+  margin-left: 24px;
+}
+.title-header {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.item-style {
+  width: 216px;
+}
+.extra-info {
+  cursor: pointer;
+  color: #126efe;
+  span:first-of-type {
+    display: inline-block;
+    font-size: 14px;
+  }
+  span:last-of-type {
+    display: inline-block;
+    margin-left: 6px;
+    border-left: 1px solid #126efe;
+    border-bottom: 1px solid #126efe;
+    transform: rotate(135deg);
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+  }
+}
+.common {
+  span:first-of-type {
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    border-top: 1px solid #dcdfe6;
+    border-left: 1px solid #dcdfe6;
+    border-bottom: 1px solid #dcdfe6;
+    border-radius: 4px 0 0 4px;
+    transform: translateY(1px);
+    background: #f5f7fa;
+    color: #666;
+  }
+  ::v-deep(.el-input__wrapper) {
+    border-radius: 0px 4px 4px 0px !important;
+  }
+}
+.bottom-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom-price {
+  display: flex;
+  justify-content: flex-end;
+  margin: 48px 0 24px 40px;
+  padding-right: 16px;
+  span:first-of-type {
+    color: #333333;
+    display: inline-block;
+    margin-right: 67px;
+  }
+  span:last-of-type {
+    color: #fe2e12;
+  }
+}
+.line {
+  position: absolute !important;
+  bottom: 44px;
+}
+.col-bottom {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid #e5e7eb;
+  z-index: 999;
+  .left {
+    align-items: center;
+    display: flex;
+    .wrap {
+      display: flex;
+      margin-right: 40px;
+      .title {
+        margin: 0px;
+        color: #666666;
+        margin-right: 24px;
+      }
+      .val {
+        color: #fe2e12;
+      }
+    }
+  }
+}
+.price-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px 16px 0px;
+  background: #f5f7fa;
+  .left {
+    display: flex;
+    justify-content: flex-start;
+
+    .header {
+      width: 90px;
+      margin-right: 20px;
+      display: inline-block;
+    }
+
+    ::v-deep(.el-input) {
+      .el-input-group__prepend {
+        width: 34px;
+      }
+
+      .el-input__wrapper {
+        width: 66px;
+      }
+    }
+  }
+
+  .right {
+    color: #fe2e12;
+  }
+}
+
+.el-space__item span {
+  font-family: PingFang SC-Regular, PingFang SC;
+}
+
+.price-style {
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #fe2e12;
+}
+.price-normal {
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: bold;
+}
+thead {
+  height: 44px;
+  th {
+    font-family: PingFang SC-Medium, PingFang SC;
+    color: #333333;
+    background: #f4f4f4;
+  }
+}
+
+.cell.el-tooltip {
+  button:not(:last-child) {
+    position: relative;
+    margin-right: 10px;
+    &::after {
+      position: absolute;
+      content: "";
+      background: #e5e7eb;
+      right: -12px;
+      width: 1px;
+      height: 14px;
+    }
+  }
+}
+
+.dialog-image {
+  .el-dialog__body {
+    padding: 20px !important;
+  }
+}

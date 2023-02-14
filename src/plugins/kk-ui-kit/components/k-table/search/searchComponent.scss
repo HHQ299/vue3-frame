@@ -1,0 +1,43 @@
+.kk-table-filter__radio-group {
+  padding: 10px 10px 0 10px;
+  width: 100%;
+  label.el-radio {
+    margin: 0;
+    margin-bottom: 8px;
+    width: 100%;
+    line-height: 1.2;
+    word-break: break-all;
+    white-space: normal;
+    height: auto;
+  }
+}
+
+.kk-table-filter__checkbox-group {
+  padding: 10px 10px 0 10px;
+  width: 100%;
+  label.el-checkbox {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 1.2;
+    word-break: break-all;
+    white-space: normal;
+    height: auto;
+  }
+}
+
+.kk-table-filter__footer {
+  border-top: 1px solid var(--el-border-color-lighter);
+  padding: 8px;
+  text-align: right;
+  margin: 0px 0 0 0;
+}
+
+.kk-table-filter__icon {
+  margin-left: auto;
+  cursor: pointer;
+  color: #666;
+  &.active {
+    color: var(--el-color-primary);
+  }
+}
